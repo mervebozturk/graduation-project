@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi\\PycApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj",
+        "projectName": "PycApi.Base",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj",
+        "projectName": "PycApi.Data",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.12, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\PycApi.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\PycApi.Dto.csproj",
+        "projectName": "PycApi.Dto",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\PycApi.Dto.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\PycApi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\PycApi.Service.csproj",
+        "projectName": "PycApi.Service",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\PycApi.Service.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Base\\PycApi.Base.csproj"
+              },
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj"
+              },
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\PycApi.Dto.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Dto\\PycApi.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi\\PycApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi\\PycApi.csproj",
+        "projectName": "PycApi",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi\\PycApi.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Data\\PycApi.Data.csproj"
+              },
+              "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\PycApi.Service.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\\dev4\\PycApi.Service\\PycApi.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

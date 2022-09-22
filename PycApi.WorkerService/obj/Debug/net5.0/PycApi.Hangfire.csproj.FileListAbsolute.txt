@@ -1,0 +1,5 @@
+C:\Users\monster\Source\Repos\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\dev4\PycApi.WorkerService\obj\Debug\net5.0\PycApi.Hangfire.csproj.AssemblyReference.cache
+C:\Users\monster\Source\Repos\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\dev4\PycApi.WorkerService\obj\Debug\net5.0\PycApi.Hangfire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monster\Source\Repos\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\dev4\PycApi.WorkerService\obj\Debug\net5.0\PycApi.Hangfire.AssemblyInfoInputs.cache
+C:\Users\monster\Source\Repos\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\dev4\PycApi.WorkerService\obj\Debug\net5.0\PycApi.Hangfire.AssemblyInfo.cs
+C:\Users\monster\Source\Repos\N-Tier-Architecture-.Net-Core-Container-Vehicle-Simulation\dev4\PycApi.WorkerService\obj\Debug\net5.0\PycApi.Hangfire.csproj.CoreCompileInputs.cache
